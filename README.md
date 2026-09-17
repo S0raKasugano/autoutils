@@ -37,7 +37,7 @@ The production-ready mod jar is ready to run directly from this repository:
 ### 1. Auto-Attack (Cooldown-Aware)
 - Automatically attacks crosshair targets or entities within reach (standard default: **3.0 blocks**).
 - **100% Cooldown Synchronized**: Strikes only when the weapon attack indicator reaches 100% for maximum damage and sharpness crits.
-- **Smart Target Filters**: Configurable for Hostile Mobs (Monsters, Slimes, Ghasts, Phantoms, Shulkers, Breeze, etc.), Passive Animals, Players (with whitelist), and Bosses (Ender Dragon, Wither, Warden, Elder Guardian).
+- **Smart Target Filters (PvE Only)**: Configurable for Hostile Mobs (Monsters, Slimes, Ghasts, Phantoms, Shulkers, Breeze, etc.), Passive Animals, and Bosses (Ender Dragon, Wither, Warden, Elder Guardian). Player targeting is strictly disabled for fair play and Modrinth compliance.
 - Toggle keybind: Press **`V`** to toggle on/off with on-screen HUD alerts.
 
 ### 2. Auto-Eat
@@ -85,7 +85,7 @@ All keybindings appear under their own dedicated **AutoUtils** section in **Opti
 
 Press **`O`** in-game or open **Mod Menu > AutoUtils > Configure** to access the neatly organized Cloth Config GUI:
 
-- ⚔️ **Combat**: Auto-Attack toggle, standard 3.0 reach slider, full cooldown requirement, collapsible **Target Entity Filters** (hostiles, passives, players, bosses), and **Auto-Totem** offhand replenishment.
+- ⚔️ **Combat**: Auto-Attack toggle, standard 3.0 reach slider, full cooldown requirement, collapsible **Target Entity Filters** (hostiles, passives, bosses), and **Auto-Totem** offhand replenishment.
 - 🍖 **Survival**: Auto-Eat toggle, hunger threshold, offhand food priority, eating delay ticks, and **Advanced Food Options** (saturation threshold, harmful food whitelist).
 - 🤖 **Automation**: Collapsible subcategories for **Join Commands** (global + server-specific rules), **Auto-Rejoin** countdown & retries, and human-like **Anti-AFK System**.
 - 🛡️ **Safety & Alerts**: Prominent emergency Kill-Switch, HUD alert notifications, warning sound volume, **Proximity Disconnect** (radius + whitelist), and **Low Health Disconnect**.
