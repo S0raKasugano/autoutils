@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "autoutils",
+  "version": "${version}",
+  "name": "AutoUtils",
+  "description": "Production-ready client-side utility mod providing automation, combat aids, and safety triggers.",
+  "authors": [
+    "S0raKasugano"
+  ],
+  "contact": {
+    "homepage": "https://github.com/S0raKasugano/autoutils",
+    "sources": "https://github.com/S0raKasugano/autoutils"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/autoutils/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autoutils.AutoUtilsClient"
+    ],
+    "modmenu": [
+      "com.autoutils.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "autoutils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
